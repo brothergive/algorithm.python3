@@ -13,12 +13,18 @@
 첫째 줄부터 넷째 줄까지 차례대로 (3), (4), (5), (6)에 들어갈 값을 출력한다.
 '''
 
-a, b = map(int, input().split())
-e = b//100
-d = b//10 - e*10
-c = b%10
+# a = int(input())
+# b = int(input())
+# e = b//100
+# d = b//10 - e*10
+# c = b%10
+#
+# print(a*c)
+# print(a*d)
+# print(a*e)
+# print(a*b)
 
-print(a*c)
-print(a*d)
-print(a*e)
-print(a*b)
+a = int(input())
+b = input()
+
+print(a*int(b[-1]),a*int(b[-2]),a*int(b[0]),a*int(b),sep='\n')
