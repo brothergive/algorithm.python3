@@ -23,7 +23,13 @@ import sys
 N = list(map(int,sys.stdin.readline().split()))
 
 for i in range(N[0]):
-    stars=''
-    for j in range(i+1):
-        stars = stars+'*'
-    print(stars)
+    # stars=''
+    # for j in range(i+1):
+    #     stars = stars+'*'
+    # print(stars)
+
+    print(f"{'*'*(i+1)}")
+
+# ------------------------------------------------------------------------------------------------------------------정리
+# print(f"{}") 사용법
+# https://docs.python.org/ko/3/tutorial/inputoutput.html
